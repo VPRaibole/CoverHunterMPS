@@ -1,3 +1,4 @@
+device: 'cuda'
 "fmin": 32  # default 32
 "n_bins": 96  # default 96
 "bins_per_octave": 12  # default 12
@@ -9,7 +10,7 @@
   "name": "cqt_with_asr_noise",
   "noise_path": "dataset/asr_as_noise/dataset.txt"
 }
-"device": "mps"
+
 "val_data_split": 0.1 # percent of training data to reserve for validation aka "val"
 "val_unseen": 0.02 # percent of work_ids from training data to reserve exclusively for validation aka "val"
 "test_data_split": 0.1 # percent of training data to reserve for test
