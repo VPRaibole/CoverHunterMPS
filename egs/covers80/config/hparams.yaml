@@ -1,3 +1,5 @@
+device: 'cuda'
+
 
 # Data parameters
 train_path: "data/covers80/full.txt"
