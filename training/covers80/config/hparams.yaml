@@ -61,7 +61,7 @@ device: 'mps' # 'mps' or 'cuda'
 seed: 1234
 num_workers: 1
 num_gpus: 1
-batch_size: 64  # 256. CoverHunter repo started with 16, but that is too small.
+batch_size: 256  # 256. CoverHunter repo started with 16, but that is too small.
 learning_rate: 0.001
 adam_b1: 0.8
 adam_b2: 0.99
